@@ -1,0 +1,52 @@
+body {
+ font-family: "Yatra One", cursive;
+ font-size: 72px;
+}
+
+/*
+font-family: 'Mogra', cursive;
+font-family: 'Slabo 27px', serif;
+font-family: 'Chonburi', cursive;
+font-family: 'Yatra One', cursive;
+*/
+
+.blueDiv {
+  display:none;
+    }
+    
+#righthand {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffbf1+0,ffefcd+47,ffe2a3+100 */
+background: rgb(255,251,241); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,251,241,1) 0%, rgba(255,239,205,1) 47%, rgba(255,226,163,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,251,241,1) 0%,rgba(255,239,205,1) 47%,rgba(255,226,163,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,251,241,1) 0%,rgba(255,239,205,1) 47%,rgba(255,226,163,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbf1', endColorstr='#ffe2a3',GradientType=1 ); /* IE6-9 */
+margin: 0;
+ text-align: right;
+  background-color: blue;
+  width: 50%;
+  height: 800px;
+  float: right;
+}
+
+#lefthand {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe2a3+0,ffefcd+53,fffbf1+100 */
+background: rgb(255,226,163); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,226,163,1) 0%, rgba(255,239,205,1) 53%, rgba(255,251,241,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,226,163,1) 0%,rgba(255,239,205,1) 53%,rgba(255,251,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,226,163,1) 0%,rgba(255,239,205,1) 53%,rgba(255,251,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe2a3', endColorstr='#fffbf1',GradientType=1 ); /* IE6-9 */
+
+  width: 50%;
+  height: 800px;
+  background-color: red;
+  display: none;
+}
+
+#swearing {
+  text-align: center;
+  background-color: green;
+  width: 100%;
+  display:none;
+  clear: both;
+  }
