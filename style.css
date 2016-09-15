@@ -5,7 +5,7 @@ background: -moz-radial-gradient(center, ellipse cover,  rgba(249,183,145,1) 0%,
 background: -webkit-radial-gradient(center, ellipse cover,  rgba(249,183,145,1) 0%,rgba(247,136,95,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: radial-gradient(ellipse at center,  rgba(249,183,145,1) 0%,rgba(247,136,95,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b791', endColorstr='#f7885f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-font-family: "Chonburi", cursive;
+font-family: "Yatra One", cursive;
 font-size: 40px;
 }
 
@@ -20,6 +20,13 @@ font-family: 'Yatra One', cursive;
   display:none;
     }
     
+    
+h1 {
+ color: #fff;
+background-color: #b8b8b8;
+text-shadow: #7a7a7a 4px 3px 0;
+}
+
 #righthand {
 margin-top: 0px;
  text-align: right;
