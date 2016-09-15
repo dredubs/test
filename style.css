@@ -20,7 +20,8 @@ font-family: 'Yatra One', cursive;
   display:none;
     }
     
-    
+.thetide {
+}    
 
 #righthand {
  text-transform: uppercase;
@@ -45,3 +46,8 @@ margin-top: 0px;
   display:none;
   clear: both;
   }
+  
+ #section2 {
+  display: none;
+  
+ }
