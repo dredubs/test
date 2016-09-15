@@ -20,5 +20,36 @@
 <div class="blueDiv toBeFaddedIn" id="righthand"><img src="hands.png" width="400" alt="" margin="0px"/><br>My right hand to god</div>
 <div class="blueDiv toBeFaddedIn" id="lefthand">Left hand holding the jewels</div>
 <div class="blueDiv toBeFaddedIn" id="swearing">and i'm swearing up and <a href="">down</a></div>
+
+
+ <div class="section white" id="section2">
+            <h2>Section 2</h2>
+            <p>
+             The tide stole my youth
+               </p>
+               </div>
+
+
+ <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+        <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('ul.nav a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    event.preventDefault();
+                });
+            });
+        </script>
 </body>
 </html>
