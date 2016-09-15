@@ -23,8 +23,6 @@ font-family: 'Yatra One', cursive;
     
 
 #righthand {
-   text-transform: uppercase;
-  color: #999;
 margin-top: 0px;
  text-align: right;
   width: 50%;
@@ -33,7 +31,6 @@ margin-top: 0px;
 }
 
 #lefthand {
- color: #666;
  margin-top: 0px;
   width: 50%;
   height: 80%;
