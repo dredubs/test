@@ -23,6 +23,7 @@ font-family: 'Yatra One', cursive;
     
 
 #righthand {
+ display: none;
 margin-top: 0px;
  text-align: right;
   width: 50%;
