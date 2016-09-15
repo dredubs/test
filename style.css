@@ -21,7 +21,7 @@ font-family: 'Yatra One', cursive;
     }
     
 #righthand {
-margin: 0;
+margin-top: 0px;
  text-align: right;
   width: 50%;
   height: 80%;
@@ -29,6 +29,7 @@ margin: 0;
 }
 
 #lefthand {
+ margin-top: 0px;
   width: 50%;
   height: 80%;
   display: none;
@@ -36,7 +37,7 @@ margin: 0;
 
 #swearing {
   text-align: center;
-  margin-top: 40px;
+  padding: 40px;
   width: 100%;
   display:none;
   clear: both;
