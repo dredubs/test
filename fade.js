@@ -9,7 +9,8 @@ $('#righthand').delay(1000)
 $('#lefthand').delay(2000)
 .fadeIn(3000);
 
-
+$('#swearing').delay(3000)
+.fadeIn(4000);
 
 
 
