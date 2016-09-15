@@ -26,6 +26,7 @@ font-family: 'Yatra One', cursive;
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #f0f0f0;
+    display:none;
 }    
 
 #righthand {
